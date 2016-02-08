@@ -5,8 +5,8 @@ A shopping system build with JFrames, Oracle 11g and JDBC
 Run the program under eclipse with JDK 1.7
 
 Database Schema:
-Photos( PhotoID, Taken_Time, Description)
-Products(ProductID，ProName，ProCategory，Brand, Price，StockQty)
+Photos( PhotoID, Taken_Time, Description)\\
+Products(ProductID，ProName，ProCategory，Brand, Price，StockQty)\\
 Addresses(AddrID, StreetAddr, AptNumber, CITY, Zip, State, Latitude, Longitude, MobilePhone)
 AddrGeoLoc(AddrID, GeoLoc)
 AddrID is a FK referencing to Addresses (AddrID)
